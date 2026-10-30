@@ -20,7 +20,6 @@
 }
 * { box-sizing: border-box; }
 html {
-  scroll-behavior: smooth;
   scroll-padding-top: 24px;
 }
 body {
@@ -62,7 +61,6 @@ h3 { font-size: 26px; }
   color: var(--navy);
   font-size: 19px;
   font-weight: 700;
-  transition: background .2s;
 }
 .button:hover { background: var(--coral); }
 .button span { font-size: 25px; }
@@ -106,13 +104,6 @@ h3 { font-size: 26px; }
 .hero .lead { max-width: 620px; margin-top: 32px; }
 .hero .button { margin-top: 40px; }
 .hero-door svg { max-height: 510px; }
-.door-leaf {
-  transform-origin: 425px 230px;
-  transition: transform .5s;
-}
-.hero-door:hover .door-leaf, .hero-door:focus-visible .door-leaf {
-  transform: skewY(4deg) scaleX(.8);
-}
 .about-grid, .history-grid {
   display: grid;
   grid-template-columns: 1.35fr 1fr;
@@ -129,11 +120,6 @@ h3 { font-size: 26px; }
   font-weight: 700;
 }
 .photos { max-width: 390px; overflow: visible; }
-.photo-front {
-  transform-origin: 280px 400px;
-  transition: transform .4s;
-}
-.photos:hover .photo-front { transform: rotate(4deg); }
 .history { padding-top: 20px; }
 .history-grid { grid-template-columns: 1fr 1fr; margin-top: 56px; }
 .computer { max-width: 540px; }
@@ -260,7 +246,3 @@ h3 { font-size: 26px; }
   .value p, .person p { font-size: 18px; }
 }
 
-@media (prefers-reduced-motion: reduce) {
-  html { scroll-behavior: auto; }
-  *, *::before, *::after { transition: none !important; }
-}
