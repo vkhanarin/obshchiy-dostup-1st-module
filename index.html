@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#182C45">
+    <meta name="description" content="Общий доступ — вымышленный клуб, где воспоминания становятся комнатами. В них можно зайти вместе и поделиться своей историей.">
+    <title>Общий доступ — клуб воспоминаний</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="style.css?v=3">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Перейти к содержимому</a>
+
+    <header class="header" id="top">
+      <div class="container header-inner">
+        <a class="brand" href="#top" aria-label="Общий доступ — на главную">
+          <img class="brand-mark" src="assets/logo.svg" alt="">
+          <span>общий доступ</span>
+        </a>
+        <nav class="main-nav" aria-label="Основная навигация">
+          <a href="#about">О клубе</a>
+          <a href="#space">Пространство</a>
+          <a href="#visit">Первый визит</a>
+          <a href="#objects">Вещи клуба</a>
+          <a href="#faq">Вопросы</a>
+        </nav>
+      </div>
+    </header>
+    <main id="main">
+
+      <section class="hero dark" aria-labelledby="hero-title">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <h1 id="hero-title">
+              Войди в чужое
+              <br>
+              воспоминание.
+            </h1>
+            <p class="lead">Клуб, где воспоминания становятся комнатами. В них можно зайти вместе и поделиться своей историей.</p>
+            <a class="button" href="#join">Как попасть в клуб <span aria-hidden="true">↗</span></a>
+          </div>
+          <a class="hero-door" href="#about" aria-label="Войти и узнать о клубе">
+            <svg viewBox="0 0 520 560" role="img" aria-label="Открытая коралловая дверь с мятной дорожкой">
+              <path class="door-path" d="M235 379H450L343 531H37Z" fill="#88CBB4"/>
+              <path d="M216 42H457V386H216Z" fill="none" stroke="#88CBB4" stroke-width="7"/>
+              <path d="M234 60H440V373H234Z" fill="#F5E6CE"/>
+              <g class="door-leaf">
+                <path d="M260 82L425 61V401L260 371Z" fill="#F47D60"/>
+                <circle cx="401" cy="235" r="6" fill="#182C45"/>
+              </g>
+            </svg>
+          </a>
+        </div>
+      </section>
+
+      <section class="about light section" id="about" aria-labelledby="about-title">
+        <div class="container about-grid">
+          <div>
+            <h2 id="about-title">
+              Чужое становится
+              <br>
+              близким.
+            </h2>
+            <div class="body-copy">
+              <p>«Общий доступ» — клуб для тех, кому интересно, как живут и что помнят другие.</p>
+              <p>Здесь можно не только рассказать о важном моменте, но и оказаться в нём вместе.</p>
+            </div>
+            <p class="ticket">Твой билет — одно воспоминание.</p>
+          </div>
+          <svg class="photos" viewBox="0 0 470 500" role="img" aria-label="Две фотографии с горами и коралловым солнцем">
+            <g class="photo-back">
+              <path d="M20 30H290V330H20Z" fill="#F5E6CE" stroke="#182C45" stroke-width="2"/>
+              <path d="M38 48H272V270H38Z" fill="#88CBB4"/>
+              <circle cx="216" cy="95" r="23" fill="#F47D60"/>
+              <path d="M38 270L110 145L205 244L236 207L272 250V270Z" fill="#7596A1"/>
+            </g>
+            <g class="photo-front">
+              <path d="M155 203H425V503H155Z" fill="#F5E6CE" stroke="#182C45" stroke-width="2"/>
+              <path d="M173 221H407V443H173Z" fill="#88CBB4"/>
+              <circle cx="352" cy="269" r="23" fill="#F47D60"/>
+              <path d="M173 443L246 325L323 405L363 355L407 405V443Z" fill="#7596A1"/>
+            </g>
+          </svg>
+        </div>
+      </section>
+
+      <section class="history light section" id="history" aria-labelledby="history-title">
+        <div class="container">
+          <h2 id="history-title">
+            Всё началось с папки
+            <br>
+            «Семейное».
+          </h2>
+          <div class="history-grid">
+            <img class="computer" src="assets/computer.svg" alt="Старый компьютер с папкой Семейное на экране">
+            <div class="body-copy history-copy">
+              <p>Всё началось со старого компьютера и папки «Семейное».</p>
+              <p>Однажды вместо снимка на экране появилась комната. В неё удалось войти.</p>
+              <p>Потом свои фотографии принесли друзья. Комнат стало больше, и появился наш клуб.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="space section light" id="space" aria-labelledby="space-title">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Место для твоих историй</p>
+              <h2 id="space-title">Знакомое место.<br>Даже если ты впервые.</h2>
+            </div>
+            <p>Старый компьютер, общий стол и дверь в чей-то важный день. Здесь хочется остаться чуть дольше.</p>
+          </div>
+          <figure class="space-photo">
+            <img src="assets/club-interior.webp" width="1440" height="960" alt="Общий зал клуба: мятный диван, стол с фотографиями, старый компьютер и коралловая дверь в комнату воспоминаний" loading="lazy">
+            <figcaption>Общий зал — так мы представляем наше пространство.</figcaption>
+          </figure>
+          <div class="space-notes">
+            <article>
+              <span class="number">01</span>
+              <h3>Точка входа</h3>
+              <p>У старого компьютера начинается знакомство с клубом. Один снимок может открыть целую историю.</p>
+            </article>
+            <article>
+              <span class="number">02</span>
+              <h3>Общий стол</h3>
+              <p>Место для разговоров, фотографий и встреч. Можно просто посидеть и послушать других.</p>
+            </article>
+            <article>
+              <span class="number">03</span>
+              <h3>Комнаты памяти</h3>
+              <p>За каждой дверью — чей-то момент. Летняя кухня, двор детства или вечер с друзьями.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="visit section" id="visit" aria-labelledby="visit-title">
+        <div class="container">
+          <p class="eyebrow">Первый визит</p>
+          <h2 id="visit-title">Одна фотография.<br>Четыре простых шага.</h2>
+          <ol class="steps">
+            <li><span class="step-number" aria-hidden="true">01</span><h3>Принеси снимок</h3><p>Выбери фотографию с моментом, которым хочется поделиться.</p></li>
+            <li><span class="step-number" aria-hidden="true">02</span><h3>Расскажи о нём</h3><p>Вспомни, кто был рядом, что звучало и чем тебе запомнился этот день.</p></li>
+            <li><span class="step-number" aria-hidden="true">03</span><h3>Открой комнату</h3><p>В мире нашего клуба компьютер собирает из твоей истории место, в которое можно войти.</p></li>
+            <li><span class="step-number" aria-hidden="true">04</span><h3>Пригласи других</h3><p>Реши, с кем разделить этот момент. Доступ к своей комнате выбираешь ты.</p></li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="values dark section" id="values" aria-labelledby="values-title">
+        <div class="container">
+          <h2 id="values-title">
+            Память становится ближе,
+            <br>
+            когда в ней есть кто-то ещё.
+          </h2>
+          <div class="values-grid">
+            <article class="value">
+              <img src="assets/share.svg" alt="">
+              <h3>Делиться</h3>
+              <p>Открывай только те моменты, которыми сам готов поделиться.</p>
+            </article>
+            <article class="value">
+              <img src="assets/listen.svg" alt="">
+              <h3>Слушать</h3>
+              <p>Дай человеку рассказать свою историю. Здесь важны даже мелочи.</p>
+            </article>
+            <article class="value">
+              <img src="assets/care.svg" alt="">
+              <h3>Беречь</h3>
+              <p>Уважай чужие воспоминания и личные границы.</p>
+            </article>
+          </div>
+          <p class="values-note">У каждого момента есть место.</p>
+        </div>
+      </section>
+
+      <section class="people light section" id="people" aria-labelledby="people-title">
+        <div class="container">
+          <h2 id="people-title">
+            Для тех, кому
+            <br>
+            есть что вспомнить.
+          </h2>
+          <div class="people-grid">
+            <article class="person">
+              <img src="assets/curious.svg" alt="">
+              <h3>Любопытным</h3>
+              <p>Зайти в чужую комнату и увидеть знакомые вещи по-новому.</p>
+            </article>
+            <article class="person">
+              <img src="assets/friends.svg" alt="">
+              <h3>Друзьям</h3>
+              <p>Вспомнить общий момент и узнать друг о друге что-то новое.</p>
+            </article>
+            <article class="person">
+              <img src="assets/photos-person.svg" alt="">
+              <h3>Тем, кто хранит снимки</h3>
+              <p>Открыть старые фотографии и снова оказаться в том дне.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="objects section" id="objects" aria-labelledby="objects-title">
+        <div class="container">
+          <div class="section-heading">
+            <div><p class="eyebrow">Вещи клуба</p><h2 id="objects-title">Что-то на память.</h2></div>
+            <p>Небольшие вещи, которые можно забрать с собой. Чтобы история продолжалась за пределами комнаты.</p>
+          </div>
+          <div class="objects-grid">
+            <figure><img src="assets/tote.webp" width="960" height="540" alt="Кремовый шоппер с графическим образом Общего доступа на коралловом фоне" loading="lazy"><figcaption><h3>Шоппер</h3><p>Для вещей, которые хочется взять с собой.</p></figcaption></figure>
+            <figure><img src="assets/poster.webp" width="960" height="540" alt="Плакат с дорогой, которая ведёт через экран компьютера" loading="lazy"><figcaption><h3>Плакат</h3><p>Ещё одна дверь в знакомое воспоминание.</p></figcaption></figure>
+            <figure><img src="assets/notebook.webp" width="960" height="540" alt="Блокнот с рисунком компьютера, мятная кружка и наклейки с символом клуба" loading="lazy"><figcaption><h3>Блокнот и мелочи</h3><p>Записывать, вспоминать и делиться.</p></figcaption></figure>
+            <figure><img src="assets/cards.webp" width="960" height="540" alt="Клубные карточки и коралловый конверт с логотипом Общего доступа" loading="lazy"><figcaption><h3>Карточка участника</h3><p>Твой билет — одно воспоминание.</p></figcaption></figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="faq section light" id="faq" aria-labelledby="faq-title">
+        <div class="container faq-grid">
+          <div><p class="eyebrow">Перед знакомством</p><h2 id="faq-title">Можно<br>спросить?</h2></div>
+          <div class="faq-list">
+            <details><summary>Кто может войти в моё воспоминание?</summary><p>Только те, кого ты пригласишь. Можно открыть комнату друзьям, всем участникам клуба или оставить её для себя.</p></details>
+            <details><summary>А если у меня нет фотографии?</summary><p>Можно начать с рассказа. Запах дождя, знакомая песня или короткий разговор тоже помогают вспомнить важный момент.</p></details>
+            <details><summary>Обязательно делиться чем-то личным?</summary><p>Нет. Ты сам выбираешь, что рассказать. Можно прийти послушать других или поделиться простым приятным днём.</p></details>
+            <details><summary>Это компьютерный клуб?</summary><p>Компьютер здесь открывает комнаты памяти. Встречаются в клубе ради историй, общения и возможности увидеть знакомый мир чужими глазами.</p></details>
+          </div>
+        </div>
+      </section>
+
+      <section class="join dark section" id="join" aria-labelledby="join-title">
+        <div class="container join-grid">
+          <div><p class="eyebrow">Как попасть в клуб</p><h2 id="join-title">Начни с того,<br>что помнишь.</h2></div>
+          <div>
+            <p class="lead">Выбери снимок или историю, к которой хочется вернуться. Представь, кого ты пригласишь разделить этот момент.</p>
+            <p class="join-note">«Общий доступ» — вымышленное пространство. Его двери пока открыты в нашей истории.</p>
+            <a class="button" href="#visit">С чего начать <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer dark">
+      <div class="container">
+        <div class="footer-main">
+          <a class="brand footer-brand" href="#top">
+            <img class="brand-mark" src="assets/logo.svg" alt="">
+            <span>общий доступ</span>
+          </a>
+          <nav class="footer-nav" aria-label="Навигация в подвале">
+            <a href="#about">О клубе</a>
+            <a href="#space">Пространство</a>
+            <a href="#visit">Первый визит</a>
+            <a href="#objects">Вещи клуба</a>
+            <a href="#top">Наверх ↑</a>
+          </nav>
+        </div>
+        <div class="footer-bottom">
+          <p>У каждого момента есть место.</p>
+          <p class="project-credit">Учебный проект · Влад Ханарин · БРИЦП262</p>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+</html>
+
