@@ -23,7 +23,7 @@ html {
   scroll-padding-top: 24px;
 }
 body {
-  min-width: 1360px;
+  min-width: 1320px;
   margin: 0;
   background: var(--navy);
   color: var(--cream);
